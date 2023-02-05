@@ -11,35 +11,35 @@
 <body>
     <div class="header">
         <div class="search-section">
-            <div>
+            <div id="search-bar">
                 <label for="search"><img src="./assets/icons/magnify.svg" alt="search icon" class="icon"></label>
                 <input type="text" id="search" name="search">
             </div>
-            <div>
+            <div id="notification-section">
                 <img src="./assets/icons/bell-outline.svg" alt="notification icon" class="icon">
                 <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_1.jpg" alt="Profile picture" class="profile-picture">
-                <span>Pyae Sone</span>
+                <span class="medium">Pyae Sone</span>
             </div>
         </div>
 
         <div class="upload-section">
-            <div>
+            <div id="main-profile">
                 <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_1.jpg" alt="Main Profile picture" id="main-profile-picture">
                 <div id="profile-greeting">
-                    <p>Hi there,</p>
-                    <p>Pyae Sone(@pyaesone)</p>
+                    <p class="smaller">Hi there,</p>
+                    <p class="large">Pyae Sone(@pyaesone)</p>
                 </div>
             </div>
-            <div>
+            <div id="button-section">
                 <ul>
                     <li>
-                        <button type="button">New</button>
+                        <button type="button" class="small">New</button>
                     </li>
                     <li>
-                        <button type="button">Upload</button>
+                        <button type="button" class="small">Upload</button>
                     </li>
                     <li>
-                        <button type="button">Share</button>
+                        <button type="button" class="small">Share</button>
                     </li>
                 </ul>
             </div>
@@ -49,33 +49,33 @@
     <div class="sidebar">
         <div>
             <img src="./assets/icons/view-dashboard.svg" alt="Dashboard icon" id="dashboard-icon">
-            <span>Dashboard</span>
+            <span class="larger">Dashboard</span>
         </div>
 
         <ul>
-            <li><img src="./assets/icons/home.svg" alt="Home icon" class="icon"><a href="">Home</a></li>
-            <li><img src="./assets/icons/account.svg" alt="Profile icon" class="icon"><a href="">Profile</a></li>
-            <li><img src="./assets/icons/message.svg" alt="Message icon" class="icon"><a href="">Messages</a></li>
-            <li><img src="./assets/icons/history.svg" alt="History icon" class="icon"><a href="">History</a></li>
-            <li><img src="./assets/icons/format-list-checks.svg" alt="Tasks icon" class="icon"><a href="">Tasks</a></li>
-            <li><img src="./assets/icons/account-group.svg" alt="Communities icon" class="icon"><a href="">Communities</a></li>
+            <li><img src="./assets/icons/home.svg" alt="Home icon" class="icon"><a href="" class="large">Home</a></li>
+            <li><img src="./assets/icons/account.svg" alt="Profile icon" class="icon"><a href="" class="large">Profile</a></li>
+            <li><img src="./assets/icons/message.svg" alt="Message icon" class="icon"><a href="" class="large">Messages</a></li>
+            <li><img src="./assets/icons/history.svg" alt="History icon" class="icon"><a href="" class="large">History</a></li>
+            <li><img src="./assets/icons/format-list-checks.svg" alt="Tasks icon" class="icon"><a href="" class="large">Tasks</a></li>
+            <li><img src="./assets/icons/account-group.svg" alt="Communities icon" class="icon"><a href="" class="large">Communities</a></li>
         </ul>
 
         <ul>
-            <li><img src="./assets/icons/cog-outline.svg" alt="Settings icon" class="icon"><a href="">Settings</a></li>
-            <li><img src="./assets/icons/lifebuoy.svg" alt="Support icon" class="icon"><a href="">support</a></li>
-            <li><img src="./assets/icons/shield-check-outline.svg" alt="Privacy icon" class="icon"><a href="">Privacy</a></li>
+            <li><img src="./assets/icons/cog-outline.svg" alt="Settings icon" class="icon"><a href="" class="large">Settings</a></li>
+            <li><img src="./assets/icons/lifebuoy.svg" alt="Support icon" class="icon"><a href="" class="large">support</a></li>
+            <li><img src="./assets/icons/shield-check-outline.svg" alt="Privacy icon" class="icon"><a href="" class="large">Privacy</a></li>
         </ul>
     </div>
 
     <div class="project-area">
         <div class="project-section">
-            <h2>Your Projects</h2>
+            <h3>Your Projects</h3>
             <div>
                 <div class="projectcard">
                     <div>
-                        <h3>Recipes Page</h3>
-                        <p>
+                        <p class="medium">Recipes Page</p>
+                        <p class="small">
                             My first project from the Odin Project foundation course. A very simple recipe page, nothing too fancy
                         </p>
                     </div>
@@ -87,8 +87,8 @@
                 </div>
                 <div class="projectcard">
                     <div>
-                        <h3>Landing Page</h3>
-                        <p>
+                        <p class="medium">Landing Page</p>
+                        <p class="small">
                             The second project from the Odin Project. This project introduces basic HTML and CSS, particulary the CSS flexbox.
                         </p>
                     </div>
@@ -100,8 +100,8 @@
                 </div>
                 <div class="projectcard">
                     <div>
-                        <h3>Rock Paper Scissors</h3>
-                        <p>
+                        <p class="medium">Rock Paper Scissors</p>
+                        <p class="small">
                             The first JavaScript project. This is where the fun begins!
                         </p>
                     </div>
@@ -113,8 +113,8 @@
                 </div>
                 <div class="projectcard">
                     <div>
-                        <h3>Calculator</h3>
-                        <p>
+                        <p class="medium">Calculator</p>
+                        <p class="small">
                             The final project of the foundation course. Technologies used include HTML, CSS, JavaScript and DOM Maniputations. A bit more in depth into JavaScript functions and logics.
                         </p>
                     </div>
@@ -126,8 +126,8 @@
                 </div>
                 <div class="projectcard">
                     <div>
-                        <h3>Sign Up Form</h3>
-                        <p>
+                        <p class="medium">Sign Up Form</p>
+                        <p class="small">
                             The first project from the Intermediate HTML and CSS course. Here I learn about HTML forms, CSS selectors and positioning.
                         </p>
                     </div>
@@ -139,8 +139,8 @@
                 </div>
                 <div class="projectcard">
                     <div>
-                        <h3>Admin Dashboard</h3>
-                        <p>
+                        <p class="medium">Admin Dashboard</p>
+                        <p class="small">
                             I conclude the Intermediate course with this project. All about CSS grid system.
                         </p>
                     </div>
@@ -154,52 +154,52 @@
         </div>
 
         <div class="announcements">
-            <h2>Announcements</h2>
+            <h3>Announcements</h3>
             <div>
                 <div>
-                    <h4>Site Maintainence</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, itaque maxime nihil id suscipit quia fugit ad pariatur neque, laboriosam saepe sapiente eveniet exercitationem! Ut magni voluptates velit voluptatem odit.</p>
+                    <p class="smaller">Site Maintainence</p>
+                    <p class="smallest">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, itaque maxime nihil id suscipit quia fugit ad pariatur neque, laboriosam saepe sapiente eveniet exercitationem! Ut magni voluptates velit voluptatem odit.</p>
                 </div>
                 <div>
-                    <h4>Community Share Day</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptates, officiis ex obcaecati officia tempora eligendi fugiat deserunt vitae ut expedita modi a earum molestias illo dignissimos nostrum dolore recusandae!</p>
+                    <p class="smaller">Community Share Day</p>
+                    <p class="smallest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptates, officiis ex obcaecati officia tempora eligendi fugiat deserunt vitae ut expedita modi a earum molestias illo dignissimos nostrum dolore recusandae!</p>
                 </div>
                 <div>
-                    <h4>Updated Privacy Policy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt officiis doloremque enim dignissimos similique unde dolorem provident, neque ut a distinctio quasi, odit suscipit, et rem dicta mollitia corporis.</p>
+                    <p class="smaller">Updated Privacy Policy</p>
+                    <p class="smallest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt officiis doloremque enim dignissimos similique unde dolorem provident, neque ut a distinctio quasi, odit suscipit, et rem dicta mollitia corporis.</p>
                 </div>
             </div>
         </div>
         
         <div class="trending">
-            <h2>Trending</h2>
+            <h3>Trending</h3>
             <div>
                 <div>
                     <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_2.jpg" alt="Profile picture" class="profile-picture">
                     <div class="trending-users">
-                        <p>@Karina</p>
-                        <p>Rocket Puncher</p>
+                        <p class="small">@Karina</p>
+                        <p class="small">Rocket Puncher</p>
                     </div>
                 </div>
                 <div>
                     <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_3.jpg" alt="Profile picture" class="profile-picture">
                     <div class="trending-users">
-                        <p>@Winter</p>
-                        <p>Armamenter</p>
+                        <p class="small">@Winter</p>
+                        <p class="small">Armamenter</p>
                     </div>
                 </div>
                 <div>
                     <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_4.jpg" alt="Profile picture" class="profile-picture">
                     <div class="trending-users">
-                        <p>@Giselle</p>
-                        <p>Xenoglossy</p>
+                        <p class="small">@Giselle</p>
+                        <p class="small">Xenoglossy</p>
                     </div>
                 </div>
                 <div>
                     <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_5.jpg" alt="Profile picture" class="profile-picture">
                     <div class="trending-users">
-                        <p>@NIng</p>
-                        <p>Hacker</p>
+                        <p class="small">@NIng</p>
+                        <p class="small">Hacker</p>
                     </div>
                 </div>
             </div>
