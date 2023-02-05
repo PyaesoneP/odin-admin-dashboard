@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --main-profile-picture-size: 75px;
+    --profile-picture-size: 50px;
+    --icon-size: 16px;
+    --dashborad-icon-size: 30px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-profile-picture {
+    width: var(--main-profile-picture-size);
+}
+
+.profile-picture {
+    width: var(--profile-picture-size);
+}
+
+#dashboard-icon {
+    width: var(--dashborad-icon-size);
+}
+
+.icon {
+    width: var(--icon-size);
+}
