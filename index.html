@@ -9,34 +9,48 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <div>
-        <label for="search"><img src="./assets/icons/magnify.svg" alt="search icon" class="icon"></label>
-        <input type="text" id="search" name="search">
-        <img src="./assets/icons/bell-outline.svg" alt="notification icon" class="icon">
-        <img src="./assets/Profile Pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_1.jpg" alt="Profile picture" class="profile-picture">
-        <span>Pyae Sone</span>
+    <div class="header">
+        <div class="search-section">
+            <div>
+                <label for="search"><img src="./assets/icons/magnify.svg" alt="search icon" class="icon"></label>
+                <input type="text" id="search" name="search">
+            </div>
+            <div>
+                <img src="./assets/icons/bell-outline.svg" alt="notification icon" class="icon">
+                <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_1.jpg" alt="Profile picture" class="profile-picture">
+                <span>Pyae Sone</span>
+            </div>
+        </div>
+
+        <div class="upload-section">
+            <div>
+                <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_1.jpg" alt="Main Profile picture" id="main-profile-picture">
+                <div id="profile-greeting">
+                    <p>Hi there,</p>
+                    <p>Pyae Sone(@pyaesone)</p>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <button type="button">New</button>
+                    </li>
+                    <li>
+                        <button type="button">Upload</button>
+                    </li>
+                    <li>
+                        <button type="button">Share</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <img src="./assets/Profile Pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_1.jpg" alt="Main Profile picture" id="main-profile-picture">
-        <p>Hi there,</p>
-        <p>Pyae Sone(@pyaesone)</p>
-        <ul>
-            <li>
-                <button type="button">New</button>
-            </li>
-            <li>
-                <button type="button">Upload</button>
-            </li>
-            <li>
-                <button type="button">Share</button>
-            </li>
-        </ul>
-    </div>
-
-    <div>
-        <img src="./assets/icons/view-dashboard.svg" alt="Dashboard icon" id="dashboard-icon">
-        <span>Dashboard</span>
+    <div class="sidebar">
+        <div>
+            <img src="./assets/icons/view-dashboard.svg" alt="Dashboard icon" id="dashboard-icon">
+            <span>Dashboard</span>
+        </div>
 
         <ul>
             <li><img src="./assets/icons/home.svg" alt="Home icon" class="icon"><a href="">Home</a></li>
@@ -54,8 +68,8 @@
         </ul>
     </div>
 
-    <div>
-        <div>
+    <div class="project-area">
+        <div class="project-section">
             <h2>Your Projects</h2>
             <div>
                 <div class="projectcard">
@@ -139,7 +153,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="announcements">
             <h2>Announcements</h2>
             <div>
                 <div>
@@ -157,33 +171,33 @@
             </div>
         </div>
         
-        <div>
+        <div class="trending">
             <h2>Trending</h2>
             <div>
                 <div>
-                    <img src="./assets/Profile Pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_2.jpg" alt="Profile picture" class="profile-picture">
-                    <div>
+                    <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_2.jpg" alt="Profile picture" class="profile-picture">
+                    <div class="trending-users">
                         <p>@Karina</p>
                         <p>Rocket Puncher</p>
                     </div>
                 </div>
                 <div>
-                    <img src="./assets/Profile Pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_3.jpg" alt="Profile picture" class="profile-picture">
-                    <div>
+                    <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_3.jpg" alt="Profile picture" class="profile-picture">
+                    <div class="trending-users">
                         <p>@Winter</p>
                         <p>Armamenter</p>
                     </div>
                 </div>
                 <div>
-                    <img src="./assets/Profile Pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_4.jpg" alt="Profile picture" class="profile-picture">
-                    <div>
+                    <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_4.jpg" alt="Profile picture" class="profile-picture">
+                    <div class="trending-users">
                         <p>@Giselle</p>
                         <p>Xenoglossy</p>
                     </div>
                 </div>
                 <div>
-                    <img src="./assets/Profile Pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_5.jpg" alt="Profile picture" class="profile-picture">
-                    <div>
+                    <img src="./assets/Profile-pictures/round-avatars-set-with-faces-people-comic-portraits-happy-social-media-users/avatars_5.jpg" alt="Profile picture" class="profile-picture">
+                    <div class="trending-users">
                         <p>@NIng</p>
                         <p>Hacker</p>
                     </div>

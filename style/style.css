@@ -6,23 +6,98 @@
     --dashborad-icon-size: 30px;
 }
 
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
 #main-profile-picture {
     width: var(--main-profile-picture-size);
 }
-
 .profile-picture {
     width: var(--profile-picture-size);
 }
-
 #dashboard-icon {
     width: var(--dashborad-icon-size);
 }
-
 .icon {
     width: var(--icon-size);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.search-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.search-section>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+}
+.upload-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.upload-section>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+}
+#profile-greeting {
+    display: inline-block;
+}
+.upload-section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.sidebar {
+    text-align: left;
+    background-color: #0ea5e9;
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+}
+
+.project-area {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: #e5e7eb;
+    gap: 20px;
+}
+.project-section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+.project-section>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.projectcard {
+    background-color: white;
+}
+
+.announcements>div {
+    background-color: white;
+}
+
+.trending>div {
+    background-color: white;
+}
+.trending-users {
+    display: inline-block;
 }
